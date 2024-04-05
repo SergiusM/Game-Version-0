@@ -4,37 +4,35 @@
 [ext_resource type="Texture2D" uid="uid://djdvtiaudygbd" path="res://Skeleton Walk.png" id="2_o45qg"]
 
 [sub_resource type="GDScript" id="GDScript_42apd"]
-script/source = "
-
-extends CharacterBody2D
+script/source = "extends CharacterBody2D
 
 const SPEED = 300.0
 
-@onready var anim = $AnimatedSprite2D
+@onready var anim=$AnimatedSprite2D
 
 func _physics_process(delta):
-	var direction_x = Input.get_axis(\"left\", \"right\")
-	var direction_y = Input.get_axis(\"up\", \"down\")
-	
-	# Обновляем горизонтальную скорость
-	velocity.x = direction_x * SPEED
-	# Обновляем вертикальную скорость
-	velocity.y = direction_y * SPEED
-	
-	# Проверяем, двигается ли персонаж, и воспроизводим соответствующую анимацию
-	if direction_x != 0 or direction_y != 0:
+	var direction = Input.get_axis(\"left\",\"right\")
+	if direction:
+		velocity.x = direction * SPEED
 		anim.play(\"walk\")
 	else:
+		velocity.x = move_toward(velocity.x, 0, SPEED)  
 		anim.play(\"idle\")
 	
-	# Отражаем персонажа по горизонтали в зависимости от направления движения
-	if direction_x==-1:
-		anim.flip_h=true
-	elif direction_x==1:
-		anim.flip_h=false
-	
-	# Передвигаем персонажа
+	var direction_y = Input.get_axis(\"up\",\"down\") 
+	if direction_y:
+		velocity.y = direction_y * SPEED
+		anim.play(\"walk\")
+	else:
+		velocity.y = move_toward(velocity.y, 0, SPEED)
+		anim.play(\"idle\")
+
+	if direction ==-1:
+		$AnimatedSprite2D.flip_h==true
+	elif direction == 1:
+		$AnimatedSprite2D.flip_h==false
 	move_and_slide()
+
 "
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_djapo"]
@@ -232,7 +230,7 @@ shape = SubResource("RectangleShape2D_djapo")
 position = Vector2(102, -192)
 scale = Vector2(11.8636, 11.6839)
 sprite_frames = SubResource("SpriteFrames_wjq7m")
-animation = &"walk"
+animation = &"idle"
 autoplay = "idle"
 
 [node name="Camera2D" type="Camera2D" parent="."]
