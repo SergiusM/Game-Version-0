@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhuwt8jclqoi3"]
+
+[ext_resource type="Texture2D" uid="uid://coe1adlr8jo1x" path="res://gender.png" id="1_hhk4p"]
+[ext_resource type="PackedScene" uid="uid://c804j7ocmov0q" path="res://Test_character.tscn" id="2_dk75y"]
+
+[node name="Scene_1" type="Node2D"]
+
+[node name="Gender" type="Sprite2D" parent="."]
+position = Vector2(567.5, 162)
+scale = Vector2(14.7188, 1)
+texture = ExtResource("1_hhk4p")
+
+[node name="Test" parent="." instance=ExtResource("2_dk75y")]
+position = Vector2(452, 152)
