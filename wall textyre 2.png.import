@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://belxja6307m0m"
-path="res://.godot/imported/Skeleton Idle.png-140c9f6a991a2b24bcf3ea1003430b37.ctex"
+uid="uid://cipp35hq3n5k0"
+path="res://.godot/imported/wall textyre 2.png-0932bd2e6fd9dffc83042604df02515d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite/Sprite Sheets/Skeleton Idle.png"
-dest_files=["res://.godot/imported/Skeleton Idle.png-140c9f6a991a2b24bcf3ea1003430b37.ctex"]
+source_file="res://wall textyre 2.png"
+dest_files=["res://.godot/imported/wall textyre 2.png-0932bd2e6fd9dffc83042604df02515d.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://q5arbbel1cs3"
-path="res://.godot/imported/Skeleton Walk.png-71c25ab6b7463b4226433f1de5f38aa7.ctex"
+uid="uid://bl51ur4182eaq"
+path="res://.godot/imported/table-Sheet111.png-a6b31e26dae167dc257c92b6dc53fc8a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite/Sprite Sheets/Skeleton Walk.png"
-dest_files=["res://.godot/imported/Skeleton Walk.png-71c25ab6b7463b4226433f1de5f38aa7.ctex"]
+source_file="res://table-Sheet111.png"
+dest_files=["res://.godot/imported/table-Sheet111.png-a6b31e26dae167dc257c92b6dc53fc8a.ctex"]
 
 [params]
 

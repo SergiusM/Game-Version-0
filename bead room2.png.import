@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b53hyvvmh0c13"
-path="res://.godot/imported/persona idle Sheet.png-35f15ccbe69fb683ee2fb33b263d8bb3.ctex"
+uid="uid://dd5xfj4d7xcoi"
+path="res://.godot/imported/bead room2.png-a0c065e3fe70b6df909793e3b463f06a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite/Person 1 Sprites/persona idle Sheet.png"
-dest_files=["res://.godot/imported/persona idle Sheet.png-35f15ccbe69fb683ee2fb33b263d8bb3.ctex"]
+source_file="res://bead room2.png"
+dest_files=["res://.godot/imported/bead room2.png-a0c065e3fe70b6df909793e3b463f06a.ctex"]
 
 [params]
 

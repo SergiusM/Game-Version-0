@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnafb6vjugbhf"
-path="res://.godot/imported/micriwave.png-27f82ec6791fec45b2ef542205e07177.ctex"
+uid="uid://dwk4g8m3hp1ar"
+path="res://.godot/imported/wall textyre 1.png-195132a0221ffcae15bedaeddc9c94f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite/Furniture/micriwave.png"
-dest_files=["res://.godot/imported/micriwave.png-27f82ec6791fec45b2ef542205e07177.ctex"]
+source_file="res://wall textyre 1.png"
+dest_files=["res://.godot/imported/wall textyre 1.png-195132a0221ffcae15bedaeddc9c94f9.ctex"]
 
 [params]
 

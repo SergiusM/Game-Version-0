@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwk4g8m3hp1ar"
-path="res://.godot/imported/wall textyre 1.png-9f16176dd0fb61714698b6048cc1bfc7.ctex"
+uid="uid://cnrcc36wn0wgl"
+path="res://.godot/imported/bead room1.png-2f64b6122bee204293e3c504149b81e1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite/Textures/wall textyre 1.png"
-dest_files=["res://.godot/imported/wall textyre 1.png-9f16176dd0fb61714698b6048cc1bfc7.ctex"]
+source_file="res://bead room1.png"
+dest_files=["res://.godot/imported/bead room1.png-2f64b6122bee204293e3c504149b81e1.ctex"]
 
 [params]
 

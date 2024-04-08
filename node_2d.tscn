@@ -1,19 +1,20 @@
-[gd_scene load_steps=33 format=3 uid="uid://dcar487npruux"]
+[gd_scene load_steps=34 format=3 uid="uid://dcar487npruux"]
 
-[ext_resource type="Texture2D" uid="uid://coe1adlr8jo1x" path="res://Sprite/Textures/gender.png" id="1_su813"]
-[ext_resource type="Texture2D" uid="uid://buhechghhl04k" path="res://Sprite/Textures/gender black.png" id="2_am3a2"]
-[ext_resource type="Texture2D" uid="uid://dwk4g8m3hp1ar" path="res://Sprite/Textures/wall textyre 1.png" id="3_o1pcb"]
-[ext_resource type="Texture2D" uid="uid://cipp35hq3n5k0" path="res://Sprite/Textures/wall textyre 2.png" id="4_p5wm4"]
-[ext_resource type="Texture2D" uid="uid://mmr8b5y2u2f6" path="res://Sprite/Furniture/Window 1.png" id="5_ajlb1"]
-[ext_resource type="Texture2D" uid="uid://cnrcc36wn0wgl" path="res://Sprite/Furniture/bead room1.png" id="6_6sn65"]
-[ext_resource type="Texture2D" uid="uid://bnafb6vjugbhf" path="res://Sprite/Furniture/micriwave.png" id="7_tct4q"]
-[ext_resource type="Texture2D" uid="uid://bl51ur4182eaq" path="res://Sprite/Furniture/table-Sheet111.png" id="8_ld6cs"]
-[ext_resource type="Script" path="res://AnimatedSprite2D.gd" id="9_6wsnv"]
-[ext_resource type="PackedScene" uid="uid://c804j7ocmov0q" path="res://Person 1.tscn" id="10_1o0a2"]
-[ext_resource type="Texture2D" uid="uid://dd5xfj4d7xcoi" path="res://Sprite/Furniture/bead room2.png" id="11_6ynio"]
+[ext_resource type="Texture2D" uid="uid://cnrcc36wn0wgl" path="res://bead room1.png" id="1_1exkk"]
+[ext_resource type="Texture2D" uid="uid://coe1adlr8jo1x" path="res://gender.png" id="1_n8k84"]
+[ext_resource type="Texture2D" uid="uid://bl51ur4182eaq" path="res://table-Sheet111.png" id="2_r2xxx"]
+[ext_resource type="Texture2D" uid="uid://buhechghhl04k" path="res://gender black.png" id="2_xm0uv"]
+[ext_resource type="Texture2D" uid="uid://mmr8b5y2u2f6" path="res://Window 1.png" id="3_r2uwr"]
+[ext_resource type="Texture2D" uid="uid://dd5xfj4d7xcoi" path="res://bead room2.png" id="3_r3n8c"]
+[ext_resource type="Texture2D" uid="uid://bnafb6vjugbhf" path="res://micriwave.png" id="7_8pr8n"]
+[ext_resource type="Texture2D" uid="uid://dwk4g8m3hp1ar" path="res://wall textyre 1.png" id="8_fbnqv"]
+[ext_resource type="Texture2D" uid="uid://cipp35hq3n5k0" path="res://wall textyre 2.png" id="9_8u4ip"]
+[ext_resource type="Script" path="res://AnimatedSprite2D.gd" id="9_tuuvq"]
+[ext_resource type="PackedScene" uid="uid://c804j7ocmov0q" path="res://Test_character.tscn" id="10_r4d84"]
+[ext_resource type="PackedScene" uid="uid://co5noefwfof14" path="res://enemy.tscn" id="12_ifg6m"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2dfyb"]
-texture = ExtResource("1_su813")
+texture = ExtResource("1_n8k84")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 1:0/0 = 0
@@ -21,7 +22,7 @@ texture_region_size = Vector2i(32, 32)
 1:1/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1kr6y"]
-texture = ExtResource("2_am3a2")
+texture = ExtResource("2_xm0uv")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 1:0/0 = 0
@@ -33,14 +34,14 @@ sources/0 = SubResource("TileSetAtlasSource_2dfyb")
 sources/1 = SubResource("TileSetAtlasSource_1kr6y")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_47ptr"]
-texture = ExtResource("3_o1pcb")
+texture = ExtResource("8_fbnqv")
 0:0/0 = 0
 1:0/0 = 0
 0:1/0 = 0
 1:1/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xs3j1"]
-texture = ExtResource("4_p5wm4")
+texture = ExtResource("9_8u4ip")
 0:0/0 = 0
 1:0/0 = 0
 0:1/0 = 0
@@ -75,19 +76,19 @@ sources/0 = SubResource("TileSetAtlasSource_0ihv6")
 sources/1 = SubResource("TileSetAtlasSource_brptu")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_88ob8"]
-atlas = ExtResource("5_ajlb1")
+atlas = ExtResource("3_r2uwr")
 region = Rect2(0, 0, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wopxc"]
-atlas = ExtResource("5_ajlb1")
+atlas = ExtResource("3_r2uwr")
 region = Rect2(100, 0, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ebmjl"]
-atlas = ExtResource("5_ajlb1")
+atlas = ExtResource("3_r2uwr")
 region = Rect2(200, 0, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_vyuh2"]
-atlas = ExtResource("5_ajlb1")
+atlas = ExtResource("3_r2uwr")
 region = Rect2(300, 0, 100, 100)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_m46wm"]
@@ -111,19 +112,19 @@ animations = [{
 }]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_y2hek"]
-atlas = ExtResource("8_ld6cs")
+atlas = ExtResource("2_r2xxx")
 region = Rect2(0, 0, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cypyh"]
-atlas = ExtResource("8_ld6cs")
+atlas = ExtResource("2_r2xxx")
 region = Rect2(300, 0, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gojs0"]
-atlas = ExtResource("8_ld6cs")
+atlas = ExtResource("2_r2xxx")
 region = Rect2(100, 0, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_aemqw"]
-atlas = ExtResource("8_ld6cs")
+atlas = ExtResource("2_r2xxx")
 region = Rect2(200, 0, 100, 100)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_nedxf"]
@@ -184,12 +185,12 @@ frame_progress = 0.226661
 [node name="BeadRoom1" type="Sprite2D" parent="."]
 position = Vector2(499.75, 278.25)
 scale = Vector2(4.685, 4.685)
-texture = ExtResource("6_6sn65")
+texture = ExtResource("1_1exkk")
 
 [node name="Micriwave" type="Sprite2D" parent="."]
 position = Vector2(743, 244)
 scale = Vector2(2.515, 2.515)
-texture = ExtResource("7_tct4q")
+texture = ExtResource("7_8pr8n")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 process_mode = 3
@@ -198,12 +199,18 @@ scale = Vector2(4.32, 4.32)
 sprite_frames = SubResource("SpriteFrames_nedxf")
 autoplay = "default"
 frame_progress = 0.590705
-script = ExtResource("9_6wsnv")
+script = ExtResource("9_tuuvq")
 
-[node name="Test" parent="." instance=ExtResource("10_1o0a2")]
-position = Vector2(668, 473)
+[node name="Test" parent="." instance=ExtResource("10_r4d84")]
+position = Vector2(680, 475)
+scale = Vector2(1, 1.03993)
 
 [node name="BeadRoom2" type="Sprite2D" parent="."]
 position = Vector2(211, 515)
 scale = Vector2(5.71687, 5.57687)
-texture = ExtResource("11_6ynio")
+texture = ExtResource("3_r3n8c")
+
+[node name="Area2D" parent="." instance=ExtResource("12_ifg6m")]
+position = Vector2(1120, 292)
+rotation = 6.28319
+scale = Vector2(12.265, 12.265)

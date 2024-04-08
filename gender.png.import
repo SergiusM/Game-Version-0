@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnrcc36wn0wgl"
-path="res://.godot/imported/bead room1.png-e1082e6602a1470ad2d0215bca2e6230.ctex"
+uid="uid://coe1adlr8jo1x"
+path="res://.godot/imported/gender.png-aaa30cb445d0a0fce7c25dad7064ca2d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprite/Furniture/bead room1.png"
-dest_files=["res://.godot/imported/bead room1.png-e1082e6602a1470ad2d0215bca2e6230.ctex"]
+source_file="res://gender.png"
+dest_files=["res://.godot/imported/gender.png-aaa30cb445d0a0fce7c25dad7064ca2d.ctex"]
 
 [params]
 
