@@ -1,0 +1,45 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1712586201
+AnimatedSprite2D.gd::GDScript::-1::1712586181::0::1::::<>AnimatedSprite2D<>::
+default_bus_layout.tres::AudioBusLayout::855461507302038552::1712586181::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1712586181::0::1::::<><>::
+First room.tscn::PackedScene::7300725498571333415::1712586181::0::1::::<><>::uid://coe1adlr8jo1x::::res://Sprite/Textures/gender.png<>uid://buhechghhl04k::::res://Sprite/Textures/gender black.png<>uid://dwk4g8m3hp1ar::::res://Sprite/Textures/wall textyre 1.png<>uid://cipp35hq3n5k0::::res://Sprite/Textures/wall textyre 2.png<>uid://mmr8b5y2u2f6::::res://Sprite/Furniture/Window 1.png<>uid://cnrcc36wn0wgl::::res://Sprite/Furniture/bead room1.png<>uid://bnafb6vjugbhf::::res://Sprite/Furniture/micriwave.png<>uid://bl51ur4182eaq::::res://Sprite/Furniture/table-Sheet111.png<>res://AnimatedSprite2D.gd<>uid://c804j7ocmov0q::::res://Person 1.tscn<>uid://dd5xfj4d7xcoi::::res://Sprite/Furniture/bead room2.png<>uid://dycvt8b3tmuqb::::res://Teleport1.tscn
+icon.svg::CompressedTexture2D::4690161607792094015::1712586181::1712586202::1::::<><>::
+Person 1.tscn::PackedScene::-1::1712586181::0::1::::<><>::
+README.md::TextFile::-1::1712586181::0::1::::<><>::
+scene_1.tscn::PackedScene::3721592055895008683::1712586181::0::1::::<><>::
+Teleport1.tscn::PackedScene::8849233776945925441::1712586181::0::1::::<><>::
+Test.gd::GDScript::-1::1712586181::0::1::::<>CharacterBody2D<>::
+::res://godot-git-plugin/::1712586181
+git_plugin.gdextension::GDExtension::-1::1712586181::0::1::::<><>::
+plugin.cfg::TextFile::-1::1712586181::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1712586181::0::1::::<><>::
+::res://godot-git-plugin/linux/::1712586181
+::res://godot-git-plugin/macos/::1712586181
+::res://godot-git-plugin/win64/::1712586181
+::res://Sprite/::1712586181
+::res://Sprite/Furniture/::1712586181
+bead room1.png::CompressedTexture2D::5720517281633682887::1712586181::1712586202::1::::<><>::
+bead room2.png::CompressedTexture2D::7433165852107801924::1712586181::1712586202::1::::<><>::
+micriwave.png::CompressedTexture2D::3299182682845889223::1712586181::1712586202::1::::<><>::
+microwave_aseprite-export.png::CompressedTexture2D::8174018172145992843::1712586181::1712586202::1::::<><>::
+sink2.png::CompressedTexture2D::8817466606331166172::1712586181::1712586202::1::::<><>::
+table-Sheet111.png::CompressedTexture2D::3222044592946043016::1712586181::1712586202::1::::<><>::
+Window 1.png::CompressedTexture2D::868129876775828741::1712586181::1712586202::1::::<><>::
+::res://Sprite/Person 1 Sprites/::1712586181
+persona idle Sheet.png::CompressedTexture2D::4550357583937640080::1712586181::1712586202::1::::<><>::
+Peson walkt.png::CompressedTexture2D::8224681138816772904::1712586181::1712586202::1::::<><>::
+Skeleton Walk.png::CompressedTexture2D::7798464185116531629::1712586181::1712586202::1::::<><>::
+::res://Sprite/Sprite Sheets/::1712586181
+Skeleton Attack.png::CompressedTexture2D::4034673392096834930::1712586181::1712586202::1::::<><>::
+Skeleton Dead.png::CompressedTexture2D::410089769201989189::1712586181::1712586202::1::::<><>::
+Skeleton Hit.png::CompressedTexture2D::5751046179890260212::1712586181::1712586202::1::::<><>::
+Skeleton Idle.png::CompressedTexture2D::2691296825714470494::1712586181::1712586202::1::::<><>::
+Skeleton React.png::CompressedTexture2D::2065231945459315279::1712586181::1712586202::1::::<><>::
+Skeleton Walk.png::CompressedTexture2D::1184983243592315464::1712586181::1712586202::1::::<><>::
+::res://Sprite/Textures/::1712586181
+gender black.png::CompressedTexture2D::3804895017551184880::1712586181::1712586202::1::::<><>::
+gender.png::CompressedTexture2D::5765321506526593787::1712586181::1712586202::1::::<><>::
+Plitka1 white.png::CompressedTexture2D::3981218981267143172::1712586181::1712586202::1::::<><>::
+wall textyre 1.png::CompressedTexture2D::8725833649300643809::1712586181::1712586202::1::::<><>::
+wall textyre 2.png::CompressedTexture2D::5366280127201257293::1712586181::1712586202::1::::<><>::

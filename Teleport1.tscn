@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dycvt8b3tmuqb"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ylnnx"]
+<<<<<<< HEAD:Teleport1.tscn
+a = Vector2(279, -275)
+b = Vector2(-316, 315)
+=======
+a = Vector2(252, -210)
+b = Vector2(-293, 208)
+>>>>>>> 02099dc2c7a7b4af650e74e4073e78250b643588:next_scene.tscn
+
+[node name="Teleport" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("SegmentShape2D_ylnnx")
