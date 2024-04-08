@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bhuwt8jclqoi3"]
 
-[ext_resource type="Texture2D" uid="uid://coe1adlr8jo1x" path="res://gender.png" id="1_hhk4p"]
-[ext_resource type="PackedScene" uid="uid://c804j7ocmov0q" path="res://Test_character.tscn" id="2_dk75y"]
+[ext_resource type="Texture2D" uid="uid://coe1adlr8jo1x" path="res://Sprite/Textures/gender.png" id="1_hhk4p"]
+[ext_resource type="PackedScene" uid="uid://c804j7ocmov0q" path="res://Person 1.tscn" id="2_dk75y"]
 
 [node name="Scene_1" type="Node2D"]
 

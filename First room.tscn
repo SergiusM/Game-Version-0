@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://dcar487npruux"]
+[gd_scene load_steps=34 format=3 uid="uid://dcar487npruux"]
 
 [ext_resource type="Texture2D" uid="uid://coe1adlr8jo1x" path="res://Sprite/Textures/gender.png" id="1_su813"]
 [ext_resource type="Texture2D" uid="uid://buhechghhl04k" path="res://Sprite/Textures/gender black.png" id="2_am3a2"]
@@ -146,6 +146,10 @@ animations = [{
 "speed": 4.0
 }]
 
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ylnnx"]
+a = Vector2(252, -210)
+b = Vector2(-293, 208)
+
 [node name="Node2D" type="Node2D"]
 position = Vector2(44, 24)
 
@@ -207,3 +211,9 @@ position = Vector2(668, 473)
 position = Vector2(211, 515)
 scale = Vector2(5.71687, 5.57687)
 texture = ExtResource("11_6ynio")
+
+[node name="Node2D" type="Area2D" parent="."]
+position = Vector2(1286, 490)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D"]
+shape = SubResource("SegmentShape2D_ylnnx")

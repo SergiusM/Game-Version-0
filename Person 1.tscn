@@ -1,6 +1,7 @@
-[gd_scene load_steps=29 format=3 uid="uid://c804j7ocmov0q"]
+[gd_scene load_steps=33 format=3 uid="uid://c804j7ocmov0q"]
 
 [ext_resource type="Texture2D" uid="uid://b53hyvvmh0c13" path="res://Sprite/Person 1 Sprites/persona idle Sheet.png" id="1_0gmvi"]
+[ext_resource type="Texture2D" uid="uid://bwp0ao6up3akv" path="res://Peson walkt.png" id="1_eqj3j"]
 [ext_resource type="Texture2D" uid="uid://djdvtiaudygbd" path="res://Sprite/Person 1 Sprites/Skeleton Walk.png" id="2_o45qg"]
 
 [sub_resource type="GDScript" id="GDScript_42apd"]
@@ -23,7 +24,7 @@ func _physics_process(delta):
 	
 	# Проверяем, двигается ли персонаж, и воспроизводим соответствующую анимацию
 	if direction_x != 0 or direction_y != 0:
-		anim.play(\"walk\")
+		anim.play(\"Walke\")
 	else:
 		anim.play(\"idle\")
 	
@@ -39,6 +40,18 @@ func _physics_process(delta):
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_djapo"]
 size = Vector2(158, 66)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gdaw2"]
+atlas = ExtResource("1_eqj3j")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmagy"]
+atlas = ExtResource("1_eqj3j")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v5o4n"]
+atlas = ExtResource("1_eqj3j")
+region = Rect2(200, 0, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_587cx"]
 atlas = ExtResource("1_0gmvi")
@@ -136,6 +149,20 @@ region = Rect2(264, 0, 22, 33)
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_gdaw2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hmagy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v5o4n")
+}],
+"loop": true,
+"name": &"Walke",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_587cx")
 }, {
 "duration": 1.0,
@@ -225,8 +252,9 @@ shape = SubResource("RectangleShape2D_djapo")
 position = Vector2(79, -158)
 scale = Vector2(4.23022, 4.16615)
 sprite_frames = SubResource("SpriteFrames_wjq7m")
-animation = &"idle"
+animation = &"Walke"
 autoplay = "idle"
+frame_progress = 0.534456
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(52, -145)
@@ -234,6 +262,6 @@ scale = Vector2(11.8636, 11.6839)
 process_callback = 0
 limit_left = -10
 limit_top = -150
-limit_bottom = 760
+limit_bottom = 650
 position_smoothing_enabled = true
 drag_horizontal_enabled = true

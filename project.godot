@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="колкрптоварпв"
+config/name="Основа основ"
 run/main_scene="res://First room.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
